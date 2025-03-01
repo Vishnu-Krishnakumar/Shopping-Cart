@@ -1,5 +1,5 @@
 import { useState, useEffect, useContext } from 'react';
-import { Items } from '/home/vishnu/odin/reactProjects/shoppingCart/src/components/Items.jsx';
+import { Items } from './Items';
 import {createProducts} from '/home/vishnu/odin/reactProjects/shoppingCart/src/products.js'
 import { Navbar } from './Navbar';
 import { CartContext } from './context/CartContext';
