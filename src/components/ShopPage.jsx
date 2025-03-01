@@ -1,6 +1,6 @@
 import { useState, useEffect, useContext } from 'react';
 import { Items } from './Items';
-import {createProducts} from '/home/vishnu/odin/reactProjects/shoppingCart/src/products.js'
+import { createProducts } from '../products';
 import { Navbar } from './Navbar';
 import { CartContext } from './context/CartContext';
 export function ShopPage(){
